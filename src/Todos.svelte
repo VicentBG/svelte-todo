@@ -105,7 +105,11 @@
 <div class="container">
     <a href="https://github.com/vicentbg" target="_blank"><img src={'https://fireship.io/lessons/svelte-v3-overview-firebase/img/featured.png'} alt="yo logo" class="logo"></a>
 
-    <h2>Svelte ToDo App</h2>
+    <span style="font-size: 48px; color: Dodgerblue;">
+        <i class="fas fa-clipboard-list"></i>
+    </span>
+    <h2>Svelte ToDo App </h2>
+    
     <input type="text" class="todo-input" placeholder="Introduce nueva tarea..." bind:value={newTodoTitle} on:keydown={addTodo}>
 
     {#each filteredTodos as todo}
