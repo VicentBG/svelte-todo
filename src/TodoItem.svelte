@@ -45,6 +45,7 @@
     }
     .completed {
         text-decoration: line-through;
+        opacity: 0.5;
         color: grey;
     }
 </style>
