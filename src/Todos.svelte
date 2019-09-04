@@ -103,7 +103,7 @@
 </style>
 
 <div class="container">
-    <a href="https://github.com/vicentbg" target="_blank"><img src={'yo_opt.jpg'} alt="yo logo" class="logo"></a>
+    <a href="https://github.com/vicentbg" target="_blank"><img src={'https://fireship.io/lessons/svelte-v3-overview-firebase/img/featured.png'} alt="yo logo" class="logo"></a>
 
     <h2>Svelte ToDo App</h2>
     <input type="text" class="todo-input" placeholder="Introduce nueva tarea..." bind:value={newTodoTitle} on:keydown={addTodo}>
