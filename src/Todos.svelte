@@ -66,7 +66,7 @@
     .logo {
         display: block;
         margin: 20px auto;
-        width: 50px;
+        width: 40%;
     }
     .todo-input {
         width: 100%;
